@@ -1,7 +1,7 @@
 project start -> npm run dev
 technology use->redux,tailwind css, chart.js,materialui
 Login->name ->Aman
-emial->test@gmail.com
+email->test@gmail.com
 password->123456
 
 project overview->
