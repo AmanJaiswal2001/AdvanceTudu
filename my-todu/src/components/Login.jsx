@@ -19,7 +19,7 @@ const navigate=useNavigate();
         };
 
         const userData = {name, email, password };
-        if (email === dummyUser.email && password === dummyUser.password) {
+        if (email === dummyUser.email && password === dummyUser.password&&name===dummyUser.name) {
             // localStorage.setItem('token', 'sample-jwt-token'); // Token Save
             dispatch(loginUser(userData));
             localStorage.setItem('token', dummyUser.token);

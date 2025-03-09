@@ -12,7 +12,7 @@ import Nav from './components/Nav';
 import { useEffect } from 'react';
 function App() {
   const [loading, setLoading] = useState(true);
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(null);
 
   useEffect(() => {
       const token = localStorage.getItem('token');
